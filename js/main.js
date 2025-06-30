@@ -163,9 +163,7 @@ function initActiveNav() {
     const navLinks = document.querySelectorAll('.nav-link');
     const path = window.location.pathname;
     navLinks.forEach(link => {
-        // Tüm nav-link'lerden active class'ı kaldır
         link.classList.remove('active');
-        // Eğer link'in href'i path ile eşleşiyorsa veya ana sayfa için özel kontrol
         if (
             (path === '/' && (link.getAttribute('href') === '/' || link.getAttribute('href') === '/index.html')) ||
             (path !== '/' && link.getAttribute('href') && path.startsWith(link.getAttribute('href')))
@@ -392,6 +390,8 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
         updateBlogLanguage();
     }, 100);
+
+    window.addEventListener('scroll', initActiveNav);
 });
 
 // Handle page visibility changes
