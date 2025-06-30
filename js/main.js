@@ -353,14 +353,13 @@ function initBlogSearchDynamic() {
 
 // Tema seçici fonksiyonu
 function setTheme(theme) {
+    console.log('setTheme called with:', theme); // Debug
     if (theme === 'dark') {
-        document.body.classList.add('dark-theme');
         document.documentElement.classList.add('dark-theme');
         localStorage.setItem('cv_theme', 'dark');
         const icon = document.getElementById('theme-icon');
         if (icon) icon.className = 'fas fa-sun';
     } else {
-        document.body.classList.remove('dark-theme');
         document.documentElement.classList.remove('dark-theme');
         localStorage.setItem('cv_theme', 'light');
         const icon = document.getElementById('theme-icon');
@@ -369,12 +368,15 @@ function setTheme(theme) {
 }
 
 function toggleTheme() {
-    const isDark = document.body.classList.contains('dark-theme');
+    console.log('toggleTheme called'); // Debug
+    const isDark = document.documentElement.classList.contains('dark-theme');
+    console.log('Current theme is dark:', isDark); // Debug
     setTheme(isDark ? 'light' : 'dark');
 }
 
 // Global scope'ta erişilebilir yap
 window.toggleTheme = toggleTheme;
+window.setTheme = setTheme;
 
 // Initialize all functions when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
