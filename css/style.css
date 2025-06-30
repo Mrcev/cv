@@ -166,6 +166,8 @@ body {
     color: var(--text-primary);
     pointer-events: auto;
     user-select: none;
+    z-index: 1001;
+    position: relative;
 }
 
 .language-toggle:hover {
@@ -666,18 +668,18 @@ html {
 
 /* Dark Theme */
 .dark-theme {
-    --background-primary: #1a1a1a;
-    --background-secondary: #2d2d2d;
-    --background-tertiary: #3a3a3a;
-    --text-primary: #e8e8e8;
-    --text-secondary: #b0b0b0;
-    --text-light: #888888;
+    --background-primary: #2a2a2a;
+    --background-secondary: #3a3a3a;
+    --background-tertiary: #4a4a4a;
+    --text-primary: #f0f0f0;
+    --text-secondary: #c0c0c0;
+    --text-light: #a0a0a0;
     --primary-color: #4a90e2;
     --secondary-color: #2c5aa0;
-    --border-color: #404040;
+    --border-color: #505050;
     --accent-color: #f39c12;
-    --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.5), 0 4px 6px -2px rgba(0,0,0,0.3);
-    --shadow-xl: 0 20px 25px -5px rgba(0,0,0,0.5), 0 10px 10px -5px rgba(0,0,0,0.3);
+    --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.3), 0 4px 6px -2px rgba(0,0,0,0.2);
+    --shadow-xl: 0 20px 25px -5px rgba(0,0,0,0.3), 0 10px 10px -5px rgba(0,0,0,0.2);
 }
 
 html.dark-theme {
@@ -690,12 +692,12 @@ html.dark-theme body {
 }
 
 html.dark-theme .navbar {
-    background: rgba(26,26,26,0.95) !important;
+    background: rgba(42,42,42,0.95) !important;
     border-bottom: 1px solid var(--border-color);
 }
 
 html.dark-theme .nav-menu {
-    background: rgba(26,26,26,0.95);
+    background: rgba(42,42,42,0.95);
 }
 
 html.dark-theme .profile-card,
@@ -746,4 +748,81 @@ html.dark-theme .hero {
 
 html.dark-theme .skills {
     background: var(--background-secondary);
+}
+
+html.dark-theme .nav-link {
+    color: var(--text-primary);
+}
+
+html.dark-theme .nav-link:hover,
+html.dark-theme .nav-link.active {
+    color: var(--primary-color);
+}
+
+html.dark-theme .language-toggle {
+    background: var(--background-secondary);
+    border-color: var(--border-color);
+    color: var(--text-primary);
+}
+
+html.dark-theme .language-toggle:hover {
+    background: var(--background-tertiary);
+    border-color: var(--primary-color);
+}
+
+html.dark-theme .bar {
+    background: var(--text-primary);
+}
+
+html.dark-theme .section-title {
+    color: var(--text-primary);
+}
+
+html.dark-theme .skill-card i {
+    color: var(--primary-color);
+}
+
+html.dark-theme .skill-card h3 {
+    color: var(--text-primary);
+}
+
+html.dark-theme .experience-header h3 {
+    color: var(--text-primary);
+}
+
+html.dark-theme .company {
+    color: var(--text-secondary);
+}
+
+html.dark-theme .duration {
+    color: var(--text-light);
+}
+
+html.dark-theme .experience-card p {
+    color: var(--text-secondary);
+}
+
+html.dark-theme .social-link {
+    color: var(--text-secondary);
+}
+
+html.dark-theme .social-link:hover {
+    color: var(--primary-color);
+}
+
+html.dark-theme .footer-section h3,
+html.dark-theme .footer-section h4 {
+    color: var(--text-primary);
+}
+
+html.dark-theme .footer-section p {
+    color: var(--text-secondary);
+}
+
+html.dark-theme .footer-bottom {
+    border-top: 1px solid var(--border-color);
+}
+
+html.dark-theme .footer-bottom p {
+    color: var(--text-light);
 } 

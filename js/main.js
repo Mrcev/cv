@@ -378,6 +378,21 @@ function toggleTheme() {
 window.toggleTheme = toggleTheme;
 window.setTheme = setTheme;
 
+// Tema butonunu bağla
+function initThemeToggle() {
+    const themeBtn = document.getElementById('theme-toggle');
+    if (themeBtn) {
+        console.log('Theme button found, adding click listener'); // Debug
+        themeBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            console.log('Theme button clicked!'); // Debug
+            toggleTheme();
+        });
+    } else {
+        console.log('Theme button not found'); // Debug
+    }
+}
+
 // Initialize all functions when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
     // Set initial language from localStorage FIRST
@@ -403,8 +418,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 100);
 
     // Tema seçici butonunu bağla
-    const themeBtn = document.getElementById('theme-toggle');
-    if (themeBtn) themeBtn.addEventListener('click', toggleTheme);
+    initThemeToggle();
     // Sayfa yüklenince localStorage'dan tema uygula
     const savedTheme = localStorage.getItem('cv_theme');
     setTheme(savedTheme === 'light' ? 'light' : 'dark'); // Default: dark
