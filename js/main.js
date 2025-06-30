@@ -371,22 +371,28 @@ function initBlogSearchDynamic() {
 
 // Initialize all functions when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
+    // Set initial language from localStorage FIRST
+    updateLanguage();
+    updateLanguageButton();
+    
+    // Initialize other functions
     initMobileNav();
     initSmoothScrolling();
     initActiveNav();
     initNavbarScroll();
     initScrollAnimations();
     initContactForm();
+    
+    // Initialize blog if on blog page
     if (window.location.pathname.includes('blog')) {
         loadBlogPosts();
         initBlogSearchDynamic();
     }
-    updateLanguageButton();
     
-    // Set initial language from localStorage
-    updateLanguage();
-    updateLanguageButton();
-    updateBlogLanguage();
+    // Update blog language after a small delay to ensure elements are loaded
+    setTimeout(() => {
+        updateBlogLanguage();
+    }, 100);
 });
 
 // Handle page visibility changes
