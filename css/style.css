@@ -100,6 +100,12 @@ body {
     height: 70px;
 }
 
+.nav-logo {
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
 .nav-logo a {
     font-size: var(--font-size-2xl);
     font-weight: 700;
@@ -113,11 +119,14 @@ body {
 }
 
 .nav-logo-img {
-    height: 44px;
+    max-height: 44px;
+    max-width: 120px;
     width: auto;
+    height: auto;
     display: block;
-    filter: drop-shadow(0 2px 6px rgba(44,90,160,0.15)) brightness(0.85) contrast(1.2) hue-rotate(-10deg);
-    /* Adjust filter as needed for your palette */
+    object-fit: contain;
+    filter: invert(27%) sepia(61%) saturate(1162%) hue-rotate(186deg) brightness(90%) contrast(95%) drop-shadow(0 2px 6px rgba(44,90,160,0.10));
+    /* This filter makes the logo blue-ish. Adjust as needed for your palette. */
 }
 
 .nav-menu {
