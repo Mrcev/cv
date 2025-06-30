@@ -405,7 +405,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (themeBtn) themeBtn.addEventListener('click', toggleTheme);
     // Sayfa yüklenince localStorage'dan tema uygula
     const savedTheme = localStorage.getItem('cv_theme');
-    setTheme(savedTheme === 'dark' ? 'dark' : 'light');
+    setTheme(savedTheme === 'light' ? 'light' : 'dark'); // Default: dark
 });
 
 // Handle page visibility changes

@@ -164,6 +164,8 @@ body {
     gap: var(--spacing-sm);
     transition: var(--transition-fast);
     color: var(--text-primary);
+    pointer-events: auto;
+    user-select: none;
 }
 
 .language-toggle:hover {
