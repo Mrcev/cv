@@ -1,5 +1,5 @@
 // Language Management
-let currentLanguage = 'en';
+let currentLanguage = localStorage.getItem('cv_lang') || 'en';
 
 // Language data
 const translations = {
@@ -86,6 +86,7 @@ const translations = {
 // Toggle language function
 function toggleLanguage() {
     currentLanguage = currentLanguage === 'en' ? 'tr' : 'en';
+    localStorage.setItem('cv_lang', currentLanguage);
     updateLanguage();
     updateLanguageButton();
     updateBlogLanguage();
@@ -382,8 +383,10 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     updateLanguageButton();
     
-    // Set initial language
+    // Set initial language from localStorage
     updateLanguage();
+    updateLanguageButton();
+    updateBlogLanguage();
 });
 
 // Handle page visibility changes
