@@ -5,6 +5,9 @@
     "title_tr": "Bloguma Hoş Geldiniz",
     "content_en": "This is a sample post. Here you can share your thoughts, technical articles, or project updates. Use the search bar above to filter posts by keywords!",
     "content_tr": "Bu bir örnek gönderidir. Burada düşüncelerinizi, teknik makalelerinizi veya proje güncellemelerinizi paylaşabilirsiniz. Yukarıdaki arama çubuğunu anahtar kelimelerle gönderileri filtrelemek için kullanın!",
+    "content_long_en": "<p>This is a <b>longer version</b> of the sample post. You can write as much as you want here, including code blocks, images, and more. For example:</p><ul><li>Share your technical journey</li><li>Add screenshots or diagrams</li><li>Write in-depth tutorials</li></ul><p>Enjoy blogging!</p>",
+    "content_long_tr": "<p>Bu gönderinin <b>daha uzun versiyonu</b>. Burada istediğiniz kadar yazı yazabilir, kod blokları, görseller ve daha fazlasını ekleyebilirsiniz. Örneğin:</p><ul><li>Teknik yolculuğunuzu paylaşın</li><li>Ekran görüntüleri veya diyagramlar ekleyin</li><li>Detaylı rehberler yazın</li></ul><p>Keyifli bloglamalar!</p>",
+    "image_url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
     "date": "2024-06-01"
   }
 ] 
