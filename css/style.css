@@ -619,6 +619,7 @@ body {
 /* Smooth scrolling */
 html {
     scroll-behavior: smooth;
+    background: var(--background-primary);
 }
 
 /* Blog post card style for blog list */
@@ -680,11 +681,11 @@ html {
 }
 
 html.dark-theme {
-    background: var(--background-primary);
+    background: var(--background-primary) !important;
 }
 
 html.dark-theme body {
-    background: var(--background-primary);
+    background: var(--background-primary) !important;
     color: var(--text-primary);
 }
 
