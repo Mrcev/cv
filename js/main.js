@@ -158,21 +158,6 @@ function initSmoothScrolling() {
     });
 }
 
-// Active navigation highlighting
-function initActiveNav() {
-    const navLinks = document.querySelectorAll('.nav-link');
-    const path = window.location.pathname;
-    navLinks.forEach(link => {
-        link.classList.remove('active');
-        if (
-            (path === '/' && (link.getAttribute('href') === '/' || link.getAttribute('href') === '/index.html')) ||
-            (path !== '/' && link.getAttribute('href') && path.startsWith(link.getAttribute('href')))
-        ) {
-            link.classList.add('active');
-        }
-    });
-}
-
 // Navbar background on scroll
 function initNavbarScroll() {
     const navbar = document.querySelector('.navbar');
@@ -375,7 +360,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize other functions
     initMobileNav();
     initSmoothScrolling();
-    initActiveNav();
     initNavbarScroll();
     initScrollAnimations();
     initContactForm();
@@ -390,8 +374,6 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
         updateBlogLanguage();
     }, 100);
-
-    window.addEventListener('scroll', initActiveNav);
 });
 
 // Handle page visibility changes
