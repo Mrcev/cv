@@ -316,13 +316,17 @@ async function loadBlogPosts() {
         posts.forEach(post => {
             const postDiv = document.createElement('div');
             postDiv.className = 'blog-post';
+            const titleLink = document.createElement('a');
+            titleLink.href = `blog-post.html?id=${post.id}`;
+            titleLink.style = 'text-decoration:none;color:inherit;';
             const title = document.createElement('h2');
             title.className = 'blog-title';
             title.textContent = currentLanguage === 'tr' ? post.title_tr : post.title_en;
+            titleLink.appendChild(title);
             const content = document.createElement('div');
             content.className = 'blog-content';
             content.innerHTML = `<p>${currentLanguage === 'tr' ? post.content_tr : post.content_en}</p>`;
-            postDiv.appendChild(title);
+            postDiv.appendChild(titleLink);
             postDiv.appendChild(content);
             blogContainer.appendChild(postDiv);
         });
@@ -356,13 +360,17 @@ function initBlogSearchDynamic() {
         }).forEach(post => {
             const postDiv = document.createElement('div');
             postDiv.className = 'blog-post';
+            const titleLink = document.createElement('a');
+            titleLink.href = `blog-post.html?id=${post.id}`;
+            titleLink.style = 'text-decoration:none;color:inherit;';
             const title = document.createElement('h2');
             title.className = 'blog-title';
             title.textContent = currentLanguage === 'tr' ? post.title_tr : post.title_en;
+            titleLink.appendChild(title);
             const content = document.createElement('div');
             content.className = 'blog-content';
             content.innerHTML = `<p>${currentLanguage === 'tr' ? post.content_tr : post.content_en}</p>`;
-            postDiv.appendChild(title);
+            postDiv.appendChild(titleLink);
             postDiv.appendChild(content);
             blogContainer.appendChild(postDiv);
         });
