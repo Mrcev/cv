@@ -619,16 +619,21 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Blog post title link hover effect */
+/* Blog post title link hover effect - more prominent */
 .blog-post a {
-    transition: color 0.2s, box-shadow 0.2s;
-    border-radius: 0.4rem;
-    padding: 0.1rem 0.2rem;
+    transition: color 0.2s, box-shadow 0.2s, background 0.2s, transform 0.15s;
+    border-radius: 0.5rem;
+    padding: 0.2rem 0.5rem;
+    display: inline-block;
+    position: relative;
 }
 .blog-post a:hover {
     color: var(--primary-color);
-    background: var(--background-tertiary);
-    box-shadow: 0 2px 8px rgba(44,90,160,0.08);
+    background: #e3edfa;
+    box-shadow: 0 4px 16px rgba(44,90,160,0.13);
     text-decoration: underline;
     cursor: pointer;
+    border-left: 5px solid var(--accent-color);
+    transform: scale(1.04);
+    z-index: 2;
 } 
