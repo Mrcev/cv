@@ -351,6 +351,28 @@ function initBlogSearchDynamic() {
     });
 }
 
+// Tema seçici fonksiyonu
+function setTheme(theme) {
+    if (theme === 'dark') {
+        document.body.classList.add('dark-theme');
+        document.documentElement.classList.add('dark-theme');
+        localStorage.setItem('cv_theme', 'dark');
+        const icon = document.getElementById('theme-icon');
+        if (icon) icon.className = 'fas fa-sun';
+    } else {
+        document.body.classList.remove('dark-theme');
+        document.documentElement.classList.remove('dark-theme');
+        localStorage.setItem('cv_theme', 'light');
+        const icon = document.getElementById('theme-icon');
+        if (icon) icon.className = 'fas fa-moon';
+    }
+}
+
+function toggleTheme() {
+    const isDark = document.body.classList.contains('dark-theme');
+    setTheme(isDark ? 'light' : 'dark');
+}
+
 // Initialize all functions when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
     // Set initial language from localStorage FIRST
@@ -374,6 +396,13 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
         updateBlogLanguage();
     }, 100);
+
+    // Tema seçici butonunu bağla
+    const themeBtn = document.getElementById('theme-toggle');
+    if (themeBtn) themeBtn.addEventListener('click', toggleTheme);
+    // Sayfa yüklenince localStorage'dan tema uygula
+    const savedTheme = localStorage.getItem('cv_theme');
+    setTheme(savedTheme === 'dark' ? 'dark' : 'light');
 });
 
 // Handle page visibility changes
