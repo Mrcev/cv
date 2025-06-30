@@ -155,7 +155,7 @@
     if (location.pathname !== '/' && !location.pathname.endsWith('.html')) {
         var page = location.pathname.replace(/^\//, '').replace(/\/$/, '');
         if (!page) page = 'index';
-        window.location.replace('/' + page + '.html');
+        window.location.replace('/' + page + '.html' + location.search + location.hash);
     }
     </script>
 </body>
