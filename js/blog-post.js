@@ -1,9 +1,9 @@
 // blog-post.js
 
-// Get blog post id from URL
+// Get blog post id from hash
 function getPostId() {
-    const params = new URLSearchParams(window.location.search);
-    return parseInt(params.get('id'), 10);
+    const hash = window.location.hash.replace('#', '');
+    return parseInt(hash, 10);
 }
 
 // Render blog post detail
@@ -50,7 +50,7 @@ async function renderRecentPosts() {
             card.className = 'recent-post-card';
             card.style = 'background:white;padding:1rem;border-radius:0.75rem;box-shadow:0 2px 8px rgba(44,90,160,0.05);display:flex;flex-direction:column;align-items:center;';
             card.innerHTML = `
-                <a href="blog-post.html?id=${post.id}" style="text-decoration:none;color:inherit;width:100%;">
+                <a href="blog-post.html#${post.id}" style="text-decoration:none;color:inherit;width:100%;">
                     <img src="${post.image_url}" alt="Post image" style="width:100%;height:120px;object-fit:cover;border-radius:0.5rem 0.5rem 0 0;">
                     <h3 style="margin:1rem 0 0.5rem 0;font-size:1.1rem;">${currentLanguage === 'tr' ? post.title_tr : post.title_en}</h3>
                     <div style="color:#95a5a6;font-size:0.95rem;">${post.date}</div>
@@ -69,8 +69,12 @@ function updateBlogPostLanguage() {
     renderRecentPosts();
 }
 
-// On DOMContentLoaded
+// On DOMContentLoaded and hashchange
 window.addEventListener('DOMContentLoaded', () => {
+    renderBlogPost();
+    renderRecentPosts();
+});
+window.addEventListener('hashchange', () => {
     renderBlogPost();
     renderRecentPosts();
 });

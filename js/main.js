@@ -317,7 +317,7 @@ async function loadBlogPosts() {
             const postDiv = document.createElement('div');
             postDiv.className = 'blog-post';
             const titleLink = document.createElement('a');
-            titleLink.href = `blog-post.html?id=${post.id}`;
+            titleLink.href = `blog-post.html#${post.id}`;
             titleLink.style = 'text-decoration:none;color:inherit;';
             const title = document.createElement('h2');
             title.className = 'blog-title';
@@ -361,7 +361,7 @@ function initBlogSearchDynamic() {
             const postDiv = document.createElement('div');
             postDiv.className = 'blog-post';
             const titleLink = document.createElement('a');
-            titleLink.href = `blog-post.html?id=${post.id}`;
+            titleLink.href = `blog-post.html#${post.id}`;
             titleLink.style = 'text-decoration:none;color:inherit;';
             const title = document.createElement('h2');
             title.className = 'blog-title';
