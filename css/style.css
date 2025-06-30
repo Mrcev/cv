@@ -619,6 +619,29 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Blog post card style for blog list */
+.blog-post {
+    background: #fff;
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--border-color);
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+    margin-bottom: 2.5rem;
+    transition: box-shadow 0.2s, border 0.2s, transform 0.15s;
+    position: relative;
+}
+.blog-post:hover {
+    box-shadow: var(--shadow-xl);
+    border-color: var(--primary-color);
+    transform: translateY(-2px) scale(1.01);
+    z-index: 1;
+}
+
+/* Add spacing below the last blog post to separate from footer */
+.blog-posts-dynamic {
+    margin-bottom: 3.5rem;
+}
+
 /* Blog post title link hover effect - more prominent */
 .blog-post a {
     transition: color 0.2s, box-shadow 0.2s, background 0.2s, transform 0.15s;
