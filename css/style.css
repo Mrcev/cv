@@ -617,4 +617,18 @@ body {
 /* Smooth scrolling */
 html {
     scroll-behavior: smooth;
+}
+
+/* Blog post title link hover effect */
+.blog-post a {
+    transition: color 0.2s, box-shadow 0.2s;
+    border-radius: 0.4rem;
+    padding: 0.1rem 0.2rem;
+}
+.blog-post a:hover {
+    color: var(--primary-color);
+    background: var(--background-tertiary);
+    box-shadow: 0 2px 8px rgba(44,90,160,0.08);
+    text-decoration: underline;
+    cursor: pointer;
 } 
