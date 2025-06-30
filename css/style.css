@@ -659,4 +659,15 @@ html {
     border-left: 5px solid var(--accent-color);
     transform: scale(1.04);
     z-index: 2;
+}
+
+.blog-post.static-card {
+    border: 1px solid var(--border-color) !important;
+    box-shadow: var(--shadow-md) !important;
+    transition: none !important;
+}
+.blog-post.static-card:hover {
+    border-color: var(--border-color) !important;
+    box-shadow: var(--shadow-md) !important;
+    transform: none !important;
 } 
