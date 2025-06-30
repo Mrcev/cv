@@ -677,55 +677,70 @@ html {
     --shadow-xl: 0 20px 25px -5px rgba(0,0,0,0.5), 0 10px 10px -5px rgba(0,0,0,0.3);
 }
 
-body.dark-theme {
+html.dark-theme {
+    background: var(--background-primary);
+}
+
+html.dark-theme body {
     background: var(--background-primary);
     color: var(--text-primary);
 }
 
-.dark-theme .navbar,
-.dark-theme .nav-menu {
-    background: rgba(24,26,27,0.95);
+html.dark-theme .navbar {
+    background: rgba(24,26,27,0.95) !important;
     border-bottom: 1px solid var(--border-color);
 }
 
-.dark-theme .profile-card,
-.dark-theme .skill-card,
-.dark-theme .experience-card {
-    background: #23272a;
+html.dark-theme .nav-menu {
+    background: rgba(24,26,27,0.95);
+}
+
+html.dark-theme .profile-card,
+html.dark-theme .skill-card,
+html.dark-theme .experience-card {
+    background: #23272a !important;
     color: var(--text-primary);
     border: 1px solid var(--border-color);
 }
 
-.dark-theme .footer {
-    background: #23272a;
+html.dark-theme .footer {
+    background: #23272a !important;
     color: var(--text-primary);
 }
 
-.dark-theme .footer-section ul li a {
+html.dark-theme .footer-section ul li a {
     color: #b2becd;
 }
 
-.dark-theme .footer-section ul li a:hover {
+html.dark-theme .footer-section ul li a:hover {
     color: #fff;
 }
 
-.dark-theme .btn-primary {
+html.dark-theme .btn-primary {
     background: var(--primary-color);
     color: #fff;
 }
 
-.dark-theme .btn-secondary {
+html.dark-theme .btn-secondary {
     color: var(--primary-color);
     border-color: var(--primary-color);
 }
 
-.dark-theme .btn-outline {
+html.dark-theme .btn-outline {
     color: var(--text-primary);
     border-color: var(--border-color);
 }
 
-.dark-theme .blog-post {
+html.dark-theme .blog-post {
     background: #23272a !important;
     color: var(--text-primary);
     border: 1px solid var(--border-color) !important;
+}
+
+html.dark-theme .hero {
+    background: linear-gradient(135deg, var(--background-primary) 0%, var(--background-secondary) 100%);
+}
+
+html.dark-theme .skills {
+    background: var(--background-secondary);
 } 
