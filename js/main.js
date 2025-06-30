@@ -373,6 +373,9 @@ function toggleTheme() {
     setTheme(isDark ? 'light' : 'dark');
 }
 
+// Global scope'ta erişilebilir yap
+window.toggleTheme = toggleTheme;
+
 // Initialize all functions when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
     // Set initial language from localStorage FIRST
@@ -418,5 +421,6 @@ window.CVWebsite = {
     toggleLanguage,
     updateLanguage,
     showNotification,
-    currentLanguage
+    currentLanguage,
+    toggleTheme
 }; 
