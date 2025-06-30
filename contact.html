@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Gökberk Çeviker</title>
+    <meta name="description" content="Contact Gökberk Çeviker - System Administrator, Computer Engineering student.">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="/">GC</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="/" class="nav-link" data-lang-en="Home" data-lang-tr="Ana Sayfa">Home</a></li>
+                <li class="nav-item"><a href="/about" class="nav-link" data-lang-en="About" data-lang-tr="Hakkında">About</a></li>
+                <li class="nav-item"><a href="/experience" class="nav-link" data-lang-en="Experience" data-lang-tr="Deneyim">Experience</a></li>
+                <li class="nav-item"><a href="/projects" class="nav-link" data-lang-en="Projects" data-lang-tr="Projeler">Projects</a></li>
+                <li class="nav-item"><a href="/blog" class="nav-link" data-lang-en="Blog" data-lang-tr="Blog">Blog</a></li>
+                <li class="nav-item"><a href="/contact" class="nav-link active" data-lang-en="Contact" data-lang-tr="İletişim">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="language-toggle" onclick="toggleLanguage()">
+                    <i class="fas fa-globe"></i>
+                    <span id="lang-text">EN</span>
+                </button>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="container" style="padding-top:100px;">
+        <section>
+            <h1 class="section-title" data-lang-en="Contact" data-lang-tr="İletişim">Contact</h1>
+            <div style="max-width:500px;margin:auto;">
+                <form id="contact-form" style="background:white;padding:2rem;border-radius:1rem;box-shadow:0 2px 16px rgba(44,90,160,0.07);">
+                    <div class="mb-3">
+                        <label for="name" data-lang-en="Name" data-lang-tr="Ad Soyad">Name</label>
+                        <input type="text" id="name" name="name" required style="width:100%;padding:0.75rem 1rem;margin-top:0.5rem;border-radius:0.5rem;border:1px solid #e9ecef;">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" data-lang-en="Email" data-lang-tr="E-posta">Email</label>
+                        <input type="email" id="email" name="email" required style="width:100%;padding:0.75rem 1rem;margin-top:0.5rem;border-radius:0.5rem;border:1px solid #e9ecef;">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" data-lang-en="Message" data-lang-tr="Mesaj">Message</label>
+                        <textarea id="message" name="message" rows="5" required style="width:100%;padding:0.75rem 1rem;margin-top:0.5rem;border-radius:0.5rem;border:1px solid #e9ecef;"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" data-lang-en="Send" data-lang-tr="Gönder">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 data-lang-en="Gökberk Çeviker" data-lang-tr="Gökberk Çeviker">Gökberk Çeviker</h3>
+                    <p data-lang-en="System Administrator & Computer Engineer" data-lang-tr="Sistem Yöneticisi & Bilgisayar Mühendisi">System Administrator & Computer Engineer</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-lang-en="Quick Links" data-lang-tr="Hızlı Bağlantılar">Quick Links</h4>
+                    <ul>
+                        <li><a href="/about" data-lang-en="About" data-lang-tr="Hakkında">About</a></li>
+                        <li><a href="/experience" data-lang-en="Experience" data-lang-tr="Deneyim">Experience</a></li>
+                        <li><a href="/projects" data-lang-en="Projects" data-lang-tr="Projeler">Projects</a></li>
+                        <li><a href="/blog" data-lang-en="Blog" data-lang-tr="Blog">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-lang-en="Connect" data-lang-tr="Bağlantı">Connect</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Gökberk Çeviker. <span data-lang-en="All rights reserved." data-lang-tr="Tüm hakları saklıdır.">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html> 

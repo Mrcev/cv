@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gökberk Çeviker - System Administrator & Computer Engineer</title>
+    <meta name="description" content="Gökberk Çeviker - Jr. System Administrator at Tetra HGS, IEEE UTAA Vice Chair, Computer Engineering student specializing in system administration and innovative solutions.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="/">GC</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="/" class="nav-link active" data-lang-en="Home" data-lang-tr="Ana Sayfa">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/about" class="nav-link" data-lang-en="About" data-lang-tr="Hakkında">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/experience" class="nav-link" data-lang-en="Experience" data-lang-tr="Deneyim">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/projects" class="nav-link" data-lang-en="Projects" data-lang-tr="Projeler">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/blog" class="nav-link" data-lang-en="Blog" data-lang-tr="Blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/contact" class="nav-link" data-lang-en="Contact" data-lang-tr="İletişim">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-actions">
+                <button class="language-toggle" onclick="toggleLanguage()">
+                    <i class="fas fa-globe"></i>
+                    <span id="lang-text">EN</span>
+                </button>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title" data-lang-en="Gökberk Çeviker" data-lang-tr="Gökberk Çeviker">Gökberk Çeviker</h1>
+                    <p class="hero-subtitle" data-lang-en="Jr. System Administrator & Computer Engineer" data-lang-tr="Jr. Sistem Yöneticisi & Bilgisayar Mühendisi">Jr. System Administrator & Computer Engineer</p>
+                    <p class="hero-description" data-lang-en="Passionate about developing reliable systems and implementing creative solutions. Currently working at Türkiye's largest HGS company with expertise in virtualization, monitoring, and Active Directory management." data-lang-tr="Güvenilir sistemler geliştirme ve yaratıcı çözümler uygulama konusunda tutkulu. Şu anda Türkiye'nin en büyük HGS şirketinde sanallaştırma, izleme ve Active Directory yönetimi konularında uzmanlıkla çalışıyor.">Passionate about developing reliable systems and implementing creative solutions. Currently working at Türkiye's largest HGS company with expertise in virtualization, monitoring, and Active Directory management.</p>
+                    <div class="hero-buttons">
+                        <a href="/about" class="btn btn-primary" data-lang-en="Learn More" data-lang-tr="Daha Fazla">Learn More</a>
+                        <a href="/contact" class="btn btn-secondary" data-lang-en="Get in Touch" data-lang-tr="İletişime Geç">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <div class="profile-avatar">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="profile-info">
+                            <h3 data-lang-en="Current Position" data-lang-tr="Mevcut Pozisyon">Current Position</h3>
+                            <p data-lang-en="Jr. System Administrator @ Tetra HGS" data-lang-tr="Jr. Sistem Yöneticisi @ Tetra HGS">Jr. System Administrator @ Tetra HGS</p>
+                            <h3 data-lang-en="Education" data-lang-tr="Eğitim">Education</h3>
+                            <p data-lang-en="Computer Engineering @ THK University" data-lang-tr="Bilgisayar Mühendisliği @ THK Üniversitesi">Computer Engineering @ THK University</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+        <div class="container">
+            <h2 class="section-title" data-lang-en="Top Skills" data-lang-tr="Temel Beceriler">Top Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-server"></i>
+                    <h3>Active Directory</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-cloud"></i>
+                    <h3>VMware vSphere</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-linux"></i>
+                    <h3>Linux</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-windows"></i>
+                    <h3>Windows Services</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-cube"></i>
+                    <h3>Proxmox</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Preview -->
+    <section class="experience-preview">
+        <div class="container">
+            <h2 class="section-title" data-lang-en="Recent Experience" data-lang-tr="Son Deneyimler">Recent Experience</h2>
+            <div class="experience-cards">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3 data-lang-en="Jr. System Administrator" data-lang-tr="Jr. Sistem Yöneticisi">Jr. System Administrator</h3>
+                        <span class="company">Tetra HGS</span>
+                        <span class="duration">Jan 2025 - Present</span>
+                    </div>
+                    <p data-lang-en="Managing systems and services, virtualization platforms, monitoring tools, and Active Directory at Türkiye's largest HGS company." data-lang-tr="Türkiye'nin en büyük HGS şirketinde sistem ve hizmet yönetimi, sanallaştırma platformları, izleme araçları ve Active Directory yönetimi.">Managing systems and services, virtualization platforms, monitoring tools, and Active Directory at Türkiye's largest HGS company.</p>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3 data-lang-en="IEEE UTAA Vice Chair" data-lang-tr="IEEE UTAA Başkan Yardımcısı">IEEE UTAA Vice Chair</h3>
+                        <span class="company">IEEE</span>
+                        <span class="duration">2023 - Present</span>
+                    </div>
+                    <p data-lang-en="Leading IEEE activities and promoting technology innovation at Turkish Aeronautical Association University." data-lang-tr="Türk Hava Kurumu Üniversitesi'nde IEEE faaliyetlerini yönetme ve teknoloji inovasyonunu teşvik etme.">Leading IEEE activities and promoting technology innovation at Turkish Aeronautical Association University.</p>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="/experience" class="btn btn-outline" data-lang-en="View All Experience" data-lang-tr="Tüm Deneyimleri Gör">View All Experience</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 data-lang-en="Gökberk Çeviker" data-lang-tr="Gökberk Çeviker">Gökberk Çeviker</h3>
+                    <p data-lang-en="System Administrator & Computer Engineer" data-lang-tr="Sistem Yöneticisi & Bilgisayar Mühendisi">System Administrator & Computer Engineer</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-lang-en="Quick Links" data-lang-tr="Hızlı Bağlantılar">Quick Links</h4>
+                    <ul>
+                        <li><a href="/about" data-lang-en="About" data-lang-tr="Hakkında">About</a></li>
+                        <li><a href="/experience" data-lang-en="Experience" data-lang-tr="Deneyim">Experience</a></li>
+                        <li><a href="/projects" data-lang-en="Projects" data-lang-tr="Projeler">Projects</a></li>
+                        <li><a href="/blog" data-lang-en="Blog" data-lang-tr="Blog">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-lang-en="Connect" data-lang-tr="Bağlantı">Connect</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Gökberk Çeviker. <span data-lang-en="All rights reserved." data-lang-tr="Tüm hakları saklıdır.">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html> 

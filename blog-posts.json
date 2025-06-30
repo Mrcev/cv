@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "title_en": "Welcome to My Blog",
+    "title_tr": "Bloguma Hoş Geldiniz",
+    "content_en": "This is a sample post. Here you can share your thoughts, technical articles, or project updates. Use the search bar above to filter posts by keywords!",
+    "content_tr": "Bu bir örnek gönderidir. Burada düşüncelerinizi, teknik makalelerinizi veya proje güncellemelerinizi paylaşabilirsiniz. Yukarıdaki arama çubuğunu anahtar kelimelerle gönderileri filtrelemek için kullanın!",
+    "date": "2024-06-01"
+  }
+] 
