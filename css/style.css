@@ -896,4 +896,10 @@ html.dark-theme .footer-bottom {
 
 html.dark-theme .footer-bottom p {
     color: var(--text-light);
+}
+
+/* Genel içerik listeleri için girinti */
+main ul, main ol {
+    padding-left: 2rem;
+    margin-left: 0;
 } 
