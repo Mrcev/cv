@@ -1,13 +1,24 @@
 [
   {
     "id": 1,
-    "title_en": "Welcome to My Blog",
-    "title_tr": "Bloguma Hoş Geldiniz",
-    "content_en": "This is a sample post. Here you can share your thoughts, technical articles, or project updates. Use the search bar above to filter posts by keywords!",
-    "content_tr": "Bu bir örnek gönderidir. Burada düşüncelerinizi, teknik makalelerinizi veya proje güncellemelerinizi paylaşabilirsiniz. Yukarıdaki arama çubuğunu anahtar kelimelerle gönderileri filtrelemek için kullanın!",
-    "content_long_en": "<p>This is a <b>longer version</b> of the sample post. You can write as much as you want here, including code blocks, images, and more. For example:</p><ul><li>Share your technical journey</li><li>Add screenshots or diagrams</li><li>Write in-depth tutorials</li></ul><p>Enjoy blogging!</p>",
-    "content_long_tr": "<p>Bu gönderinin <b>daha uzun versiyonu</b>. Burada istediğiniz kadar yazı yazabilir, kod blokları, görseller ve daha fazlasını ekleyebilirsiniz. Örneğin:</p><ul><li>Teknik yolculuğunuzu paylaşın</li><li>Ekran görüntüleri veya diyagramlar ekleyin</li><li>Detaylı rehberler yazın</li></ul><p>Keyifli bloglamalar!</p>",
-    "image_url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
-    "date": "2024-06-01"
+    "title_en": "Preface (PDF)",
+    "title_tr": "Önsöz (PDF)",
+    "content_en": "View the Preface PDF online in the blog post.",
+    "content_tr": "Önsöz PDF dosyasını blogda online olarak görüntüleyin.",
+    "content_long_en": "<div style='width:100%;height:80vh;max-width:100%;margin:2rem 0;box-shadow:0 2px 16px rgba(44,90,160,0.08);border-radius:12px;overflow:hidden;'><iframe src='pdfs/tr/onsoz.pdf' width='100%' height='100%' style='border:none;min-height:600px;' allowfullscreen></iframe></div><a href='pdfs/tr/onsoz.pdf' download style='color:#2c5aa0;font-weight:600;'>Download PDF</a>",
+    "content_long_tr": "<div style='width:100%;height:80vh;max-width:100%;margin:2rem 0;box-shadow:0 2px 16px rgba(44,90,160,0.08);border-radius:12px;overflow:hidden;'><iframe src='pdfs/tr/onsoz.pdf' width='100%' height='100%' style='border:none;min-height:600px;' allowfullscreen></iframe></div><a href='pdfs/tr/onsoz.pdf' download style='color:#2c5aa0;font-weight:600;'>PDF'yi indir</a>",
+    "image_url": "photos/blogphotos/gokberk-ceviker.jpg",
+    "date": "2025-07-01"
+  },
+  {
+    "id": 2,
+    "title_en": "Proxmox VE Installation (PDF)",
+    "title_tr": "Proxmox VE Kurulumu (PDF)",
+    "content_en": "View the Proxmox VE installation PDF online in the blog post.",
+    "content_tr": "Proxmox VE kurulum PDF dosyasını blogda online olarak görüntüleyin.",
+    "content_long_en": "<p>You can view the Proxmox VE Installation and Management PDF document online below.</p><div style='width:100%;height:80vh;max-width:100%;margin:2rem 0;box-shadow:0 2px 16px rgba(44,90,160,0.08);border-radius:12px;overflow:hidden;'><iframe src='pdfs/tr/proxmox.pdf' width='100%' height='100%' style='border:none;min-height:600px;' allowfullscreen></iframe></div><a href='pdfs/tr/proxmox.pdf' download style='color:#2c5aa0;font-weight:600;'>Download PDF</a>",
+    "content_long_tr": "<p>Proxmox VE Kurulum ve Yönetim PDF dokümanını aşağıdan online olarak görüntüleyebilirsiniz.</p><div style='width:100%;height:80vh;max-width:100%;margin:2rem 0;box-shadow:0 2px 16px rgba(44,90,160,0.08);border-radius:12px;overflow:hidden;'><iframe src='pdfs/tr/proxmox.pdf' width='100%' height='100%' style='border:none;min-height:600px;' allowfullscreen></iframe></div><a href='pdfs/tr/proxmox.pdf' download style='color:#2c5aa0;font-weight:600;'>PDF'yi indir</a>",
+    "image_url": "photos/blogphotos/proxmox-ve-8.jpg",
+    "date": "2025-07-03"
   }
 ] 
