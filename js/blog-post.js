@@ -1,9 +1,10 @@
 // blog-post.js
 
-// Get blog post id from hash
+// Get blog post id from query string
 function getPostId() {
-    const hash = window.location.hash.replace('#', '');
-    return parseInt(hash, 10);
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get('id');
+    return id ? parseInt(id, 10) : undefined;
 }
 
 // Render blog post detail
@@ -49,7 +50,7 @@ async function renderRecentPosts() {
             const card = document.createElement('div');
             card.className = 'recent-post-card';
             card.innerHTML = `
-                <a href="blog-post.html#${post.id}" class="recent-post-link">
+                <a href="blog-post.html?id=${post.id}" class="recent-post-link">
                     <img src="${post.image_url}" alt="Post image" class="recent-post-image">
                     <h3 class="recent-post-title">${currentLanguage === 'tr' ? post.title_tr : post.title_en}</h3>
                     <div class="recent-post-date">${post.date}</div>
@@ -74,12 +75,12 @@ function updateBlogPostTheme() {
     renderRecentPosts();
 }
 
-// On DOMContentLoaded and hashchange
+// On DOMContentLoaded and popstate
 window.addEventListener('DOMContentLoaded', () => {
     renderBlogPost();
     renderRecentPosts();
 });
-window.addEventListener('hashchange', () => {
+window.addEventListener('popstate', () => {
     renderBlogPost();
     renderRecentPosts();
 });
