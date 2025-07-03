@@ -908,4 +908,15 @@ main ul, main ol {
     padding-left: 2rem;
     margin-left: 0;
     list-style-type: disc;
+}
+
+html.dark-theme .blog-post a:hover {
+    background: #263143 !important;
+    color: var(--primary-color) !important;
+    box-shadow: 0 4px 16px rgba(44,144,226,0.13) !important;
+    border-left: 5px solid var(--accent-color) !important;
+    text-decoration: underline;
+    cursor: pointer;
+    transform: scale(1.04);
+    z-index: 2;
 } 
