@@ -921,65 +921,67 @@ html.dark-theme .blog-post a:hover {
     z-index: 2;
 }
 
-.blog-content-long a,
-.blog-content-long a.pdf-download,
-.blog-content-long a.program-download {
+/* --- BLOG BUTONLARI YENİDEN --- */
+.blog-content-long .pdf-download {
     display: inline-block;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    margin-right: 0.5rem;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    padding: 0.5rem 1.2rem;
     font-weight: 600;
     border-radius: 6px;
-    padding: 0.5rem 1.2rem;
     text-decoration: none;
+    border: 2px solid #2c5aa0 !important;
+    background: #f8f9fa !important;
+    color: #2c5aa0 !important;
+    box-shadow: 0 2px 8px rgba(44,90,160,0.08) !important;
     transition: background 0.2s, color 0.2s, border 0.2s, box-shadow 0.2s;
-    box-shadow: 0 2px 8px rgba(44,90,160,0.08);
 }
-/* PDF Download - Light Theme */
-body:not(.dark-theme) .blog-content-long a.pdf-download {
-    background: #f8f9fa;
-    color: #2c5aa0;
-    border: 1.5px solid #2c5aa0;
+.blog-content-long .pdf-download:hover {
+    background: #2c5aa0 !important;
+    color: #fff !important;
+    border-color: #2c5aa0 !important;
+    box-shadow: 0 4px 16px rgba(44,90,160,0.18) !important;
 }
-body:not(.dark-theme) .blog-content-long a.pdf-download:hover {
-    background: #2c5aa0;
-    color: #fff;
-    border-color: #2c5aa0;
-    box-shadow: 0 4px 16px rgba(44,90,160,0.18);
+.blog-content-long .program-download {
+    display: inline-block;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    padding: 0.5rem 1.2rem;
+    font-weight: 600;
+    border-radius: 6px;
+    text-decoration: none;
+    border: 2px solid #27ae60 !important;
+    background: #eafaf1 !important;
+    color: #27ae60 !important;
+    box-shadow: 0 2px 8px rgba(39,174,96,0.12) !important;
+    transition: background 0.2s, color 0.2s, border 0.2s, box-shadow 0.2s;
 }
-/* Program Download - Light Theme */
-body:not(.dark-theme) .blog-content-long a.program-download {
-    background: #eafaf1;
-    color: #27ae60;
-    border: 1.5px solid #27ae60;
+.blog-content-long .program-download:hover {
+    background: #27ae60 !important;
+    color: #fff !important;
+    border-color: #27ae60 !important;
+    box-shadow: 0 4px 16px rgba(39,174,96,0.18) !important;
 }
-body:not(.dark-theme) .blog-content-long a.program-download:hover {
-    background: #27ae60;
-    color: #fff;
-    border-color: #27ae60;
-    box-shadow: 0 4px 16px rgba(39,174,96,0.18);
+body.dark-theme .blog-content-long .pdf-download {
+    background: #232b3a !important;
+    color: #4a90e2 !important;
+    border-color: #4a90e2 !important;
+    box-shadow: 0 2px 8px rgba(44,144,226,0.08) !important;
 }
-/* PDF Download - Dark Theme */
-body.dark-theme .blog-content-long a.pdf-download {
-    background: #232b3a;
-    color: #4a90e2;
-    border: 1.5px solid #4a90e2;
+body.dark-theme .blog-content-long .pdf-download:hover {
+    background: #4a90e2 !important;
+    color: #fff !important;
+    border-color: #f39c12 !important;
+    box-shadow: 0 4px 16px rgba(44,144,226,0.18) !important;
 }
-body.dark-theme .blog-content-long a.pdf-download:hover {
-    background: #4a90e2;
-    color: #fff;
-    border-color: #f39c12;
-    box-shadow: 0 4px 16px rgba(44,144,226,0.18);
+body.dark-theme .blog-content-long .program-download {
+    background: #145a32 !important;
+    color: #fff !important;
+    border-color: #27ae60 !important;
+    box-shadow: 0 2px 8px rgba(39,174,96,0.12) !important;
 }
-/* Program Download - Dark Theme */
-body.dark-theme .blog-content-long a.program-download {
-    background: #145a32;
-    color: #fff;
-    border: 1.5px solid #27ae60;
+body.dark-theme .blog-content-long .program-download:hover {
+    background: #f39c12 !important;
+    color: #232b3a !important;
+    border-color: #f39c12 !important;
+    box-shadow: 0 4px 16px rgba(243,156,18,0.18) !important;
 }
-body.dark-theme .blog-content-long a.program-download:hover {
-    background: #f39c12;
-    color: #232b3a;
-    border-color: #f39c12;
-    box-shadow: 0 4px 16px rgba(243,156,18,0.18);
-} 
+/* --- BLOG BUTONLARI SONU --- */ 
