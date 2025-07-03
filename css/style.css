@@ -932,28 +932,54 @@ html.dark-theme .blog-post a:hover {
     border-radius: 6px;
     padding: 0.5rem 1.2rem;
     text-decoration: none;
-    border: 1.5px solid #4a90e2;
-    background: #232b3a;
-    color: #4a90e2;
-    transition: background 0.2s, color 0.2s, border 0.2s;
-    box-shadow: 0 2px 8px rgba(44,144,226,0.08);
+    transition: background 0.2s, color 0.2s, border 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(44,90,160,0.08);
 }
-.blog-content-long a.program-download {
-    background: #219150;
+/* PDF Download - Light Theme */
+body:not(.dark-theme) .blog-content-long a.pdf-download {
+    background: #f8f9fa;
+    color: #2c5aa0;
+    border: 1.5px solid #2c5aa0;
+}
+body:not(.dark-theme) .blog-content-long a.pdf-download:hover {
+    background: #2c5aa0;
+    color: #fff;
+    border-color: #2c5aa0;
+    box-shadow: 0 4px 16px rgba(44,90,160,0.18);
+}
+/* Program Download - Light Theme */
+body:not(.dark-theme) .blog-content-long a.program-download {
+    background: #eafaf1;
+    color: #27ae60;
+    border: 1.5px solid #27ae60;
+}
+body:not(.dark-theme) .blog-content-long a.program-download:hover {
+    background: #27ae60;
     color: #fff;
     border-color: #27ae60;
-    box-shadow: 0 2px 8px rgba(39,174,96,0.12);
+    box-shadow: 0 4px 16px rgba(39,174,96,0.18);
 }
-.blog-content-long a:hover,
-.blog-content-long a.pdf-download:hover {
+/* PDF Download - Dark Theme */
+body.dark-theme .blog-content-long a.pdf-download {
+    background: #232b3a;
+    color: #4a90e2;
+    border: 1.5px solid #4a90e2;
+}
+body.dark-theme .blog-content-long a.pdf-download:hover {
     background: #4a90e2;
     color: #fff;
     border-color: #f39c12;
     box-shadow: 0 4px 16px rgba(44,144,226,0.18);
 }
-.blog-content-long a.program-download:hover {
+/* Program Download - Dark Theme */
+body.dark-theme .blog-content-long a.program-download {
+    background: #145a32;
+    color: #fff;
+    border: 1.5px solid #27ae60;
+}
+body.dark-theme .blog-content-long a.program-download:hover {
     background: #f39c12;
-    border-color: #f39c12;
     color: #232b3a;
+    border-color: #f39c12;
     box-shadow: 0 4px 16px rgba(243,156,18,0.18);
 } 
