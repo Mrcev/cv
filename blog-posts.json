@@ -1,23 +1,34 @@
 [
   {
     "id": 1,
-    "title_en": "Preface (PDF)",
-    "title_tr": "Önsöz (PDF)",
+    "title_en": "Preface",
+    "title_tr": "Önsöz",
     "content_en": "View the Preface PDF online in the blog post.",
     "content_tr": "Önsöz PDF dosyasını blogda online olarak görüntüleyin.",
-    "content_long_en": "<div style='width:100%;height:80vh;max-width:100%;margin:2rem 0;box-shadow:0 2px 16px rgba(44,90,160,0.08);border-radius:12px;overflow:hidden;'><iframe src='pdfs/tr/onsoz.pdf' width='100%' height='100%' style='border:none;min-height:600px;' allowfullscreen></iframe></div><a href='pdfs/tr/onsoz.pdf' download style='color:#2c5aa0;font-weight:600;'>Download PDF</a>",
-    "content_long_tr": "<div style='width:100%;height:80vh;max-width:100%;margin:2rem 0;box-shadow:0 2px 16px rgba(44,90,160,0.08);border-radius:12px;overflow:hidden;'><iframe src='pdfs/tr/onsoz.pdf' width='100%' height='100%' style='border:none;min-height:600px;' allowfullscreen></iframe></div><a href='pdfs/tr/onsoz.pdf' download style='color:#2c5aa0;font-weight:600;'>PDF'yi indir</a>",
+    "content_long_en": "<div style='width:100%;height:80vh;max-width:100%;margin:2rem 0;box-shadow:0 2px 16px rgba(44,90,160,0.08);border-radius:12px;overflow:hidden;'><iframe src='pdfs/tr/onsoz.pdf' width='100%' height='100%' style='border:none;min-height:600px;' allowfullscreen></iframe></div><div style='display:flex;gap:1rem;flex-wrap:wrap;align-items:center;'><a href='pdfs/tr/onsoz.pdf' download style='color:#2c5aa0;font-weight:600;border:1.5px solid #2c5aa0;padding:0.5rem 1.2rem;border-radius:6px;text-decoration:none;background:#f8f9fa;'>Download PDF</a></div>",
+    "content_long_tr": "<div style='width:100%;height:80vh;max-width:100%;margin:2rem 0;box-shadow:0 2px 16px rgba(44,90,160,0.08);border-radius:12px;overflow:hidden;'><iframe src='pdfs/tr/onsoz.pdf' width='100%' height='100%' style='border:none;min-height:600px;' allowfullscreen></iframe></div><div style='display:flex;gap:1rem;flex-wrap:wrap;align-items:center;'><a href='pdfs/tr/onsoz.pdf' download style='color:#2c5aa0;font-weight:600;border:1.5px solid #2c5aa0;padding:0.5rem 1.2rem;border-radius:6px;text-decoration:none;background:#f8f9fa;'>PDF'yi indir</a></div>",
     "image_url": "photos/blogphotos/gokberk-ceviker.jpg",
     "date": "2025-07-01"
   },
   {
     "id": 2,
-    "title_en": "Proxmox VE Installation (PDF)",
-    "title_tr": "Proxmox VE Kurulumu (PDF)",
+    "title_en": "Proxmox VE Installation",
+    "title_tr": "Proxmox VE Kurulumu",
     "content_en": "View the Proxmox VE installation PDF online in the blog post.",
     "content_tr": "Proxmox VE kurulum PDF dosyasını blogda online olarak görüntüleyin.",
-    "content_long_en": "<p>You can view the Proxmox VE Installation and Management PDF document online below.</p><div style='width:100%;height:80vh;max-width:100%;margin:2rem 0;box-shadow:0 2px 16px rgba(44,90,160,0.08);border-radius:12px;overflow:hidden;'><iframe src='pdfs/tr/proxmox.pdf' width='100%' height='100%' style='border:none;min-height:600px;' allowfullscreen></iframe></div><a href='pdfs/tr/proxmox.pdf' download style='color:#2c5aa0;font-weight:600;'>Download PDF</a>",
-    "content_long_tr": "<p>Proxmox VE Kurulum ve Yönetim PDF dokümanını aşağıdan online olarak görüntüleyebilirsiniz.</p><div style='width:100%;height:80vh;max-width:100%;margin:2rem 0;box-shadow:0 2px 16px rgba(44,90,160,0.08);border-radius:12px;overflow:hidden;'><iframe src='pdfs/tr/proxmox.pdf' width='100%' height='100%' style='border:none;min-height:600px;' allowfullscreen></iframe></div><a href='pdfs/tr/proxmox.pdf' download style='color:#2c5aa0;font-weight:600;'>PDF'yi indir</a>",
+    "content_long_en": "<p>You can view the Proxmox VE Installation and Management PDF document online below.</p><div style='width:100%;height:80vh;max-width:100%;margin:2rem 0;box-shadow:0 2px 16px rgba(44,90,160,0.08);border-radius:12px;overflow:hidden;'><iframe src='pdfs/tr/proxmox.pdf' width='100%' height='100%' style='border:none;min-height:600px;' allowfullscreen></iframe></div><div style='display:flex;gap:1rem;flex-wrap:wrap;align-items:center;'><a href='pdfs/tr/proxmox.pdf' download style='color:#2c5aa0;font-weight:600;border:1.5px solid #2c5aa0;padding:0.5rem 1.2rem;border-radius:6px;text-decoration:none;background:#f8f9fa;'>Download PDF</a></div>",
+    "content_long_tr": "<p>Proxmox VE Kurulum ve Yönetim PDF dokümanını aşağıdan online olarak görüntüleyebilirsiniz.</p><div style='width:100%;height:80vh;max-width:100%;margin:2rem 0;box-shadow:0 2px 16px rgba(44,90,160,0.08);border-radius:12px;overflow:hidden;'><iframe src='pdfs/tr/proxmox.pdf' width='100%' height='100%' style='border:none;min-height:600px;' allowfullscreen></iframe></div><div style='display:flex;gap:1rem;flex-wrap:wrap;align-items:center;'><a href='pdfs/tr/proxmox.pdf' download style='color:#2c5aa0;font-weight:600;border:1.5px solid #2c5aa0;padding:0.5rem 1.2rem;border-radius:6px;text-decoration:none;background:#f8f9fa;'>PDF'yi indir</a></div>",
+    "image_url": "photos/blogphotos/proxmox-ve-8.jpg",
+    "date": "2025-07-03"
+  },
+  {
+    "id": 3,
+    "title_en": "Advanced Ip Scanner - Useful Tools",
+    "title_tr": "Advanced Ip Scanner - Faydalı Araçlar",
+    "content_en": "View the Advanced Ip Scanner PDF online in the blog post.",
+    "content_tr": "Advanced Ip Scanner PDF dosyasını blogda online olarak görüntüleyin.",
+    "content_long_en": "<div style='width:100%;height:80vh;max-width:100%;margin:2rem 0;box-shadow:0 2px 16px rgba(44,90,160,0.08);border-radius:12px;overflow:hidden;'><iframe src='pdfs/tr/AdvancedIpScanner.pdf' width='100%' height='100%' style='border:none;min-height:600px;' allowfullscreen></iframe></div><div style='display:flex;gap:1rem;flex-wrap:wrap;align-items:center;'><a href='pdfs/tr/AdvancedIpScanner.pdf' download style='color:#2c5aa0;font-weight:600;border:1.5px solid #2c5aa0;padding:0.5rem 1.2rem;border-radius:6px;text-decoration:none;background:#f8f9fa;'>Download PDF</a><a href='https://www.advanced-ip-scanner.com/download/' target='_blank' rel='noopener' style='color:#fff;font-weight:600;border:1.5px solid #27ae60;padding:0.5rem 1.2rem;border-radius:6px;text-decoration:none;background:#27ae60;'>Download Program</a></div>",
+    "content_long_tr": "<div style='width:100%;height:80vh;max-width:100%;margin:2rem 0;box-shadow:0 2px 16px rgba(44,90,160,0.08);border-radius:12px;overflow:hidden;'><iframe src='pdfs/tr/AdvancedIpScanner.pdf' width='100%' height='100%' style='border:none;min-height:600px;' allowfullscreen></iframe></div><div style='display:flex;gap:1rem;flex-wrap:wrap;align-items:center;'><a href='pdfs/tr/AdvancedIpScanner.pdf' download style='color:#2c5aa0;font-weight:600;border:1.5px solid #2c5aa0;padding:0.5rem 1.2rem;border-radius:6px;text-decoration:none;background:#f8f9fa;'>PDF'yi indir</a><a href='https://www.advanced-ip-scanner.com/download/' target='_blank' rel='noopener' style='color:#fff;font-weight:600;border:1.5px solid #27ae60;padding:0.5rem 1.2rem;border-radius:6px;text-decoration:none;background:#27ae60;'>Programı İndir</a></div>",
     "image_url": "photos/blogphotos/proxmox-ve-8.jpg",
     "date": "2025-07-03"
   }
