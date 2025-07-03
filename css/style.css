@@ -919,4 +919,41 @@ html.dark-theme .blog-post a:hover {
     cursor: pointer;
     transform: scale(1.04);
     z-index: 2;
+}
+
+.blog-content-long a,
+.blog-content-long a.pdf-download,
+.blog-content-long a.program-download {
+    display: inline-block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    font-weight: 600;
+    border-radius: 6px;
+    padding: 0.5rem 1.2rem;
+    text-decoration: none;
+    border: 1.5px solid #4a90e2;
+    background: #232b3a;
+    color: #4a90e2;
+    transition: background 0.2s, color 0.2s, border 0.2s;
+    box-shadow: 0 2px 8px rgba(44,144,226,0.08);
+}
+.blog-content-long a.program-download {
+    background: #219150;
+    color: #fff;
+    border-color: #27ae60;
+    box-shadow: 0 2px 8px rgba(39,174,96,0.12);
+}
+.blog-content-long a:hover,
+.blog-content-long a.pdf-download:hover {
+    background: #4a90e2;
+    color: #fff;
+    border-color: #f39c12;
+    box-shadow: 0 4px 16px rgba(44,144,226,0.18);
+}
+.blog-content-long a.program-download:hover {
+    background: #f39c12;
+    border-color: #f39c12;
+    color: #232b3a;
+    box-shadow: 0 4px 16px rgba(243,156,18,0.18);
 } 
