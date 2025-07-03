@@ -8,7 +8,7 @@
     "content_long_en": "<div style='width:100%;height:80vh;max-width:100%;margin:2rem 0;box-shadow:0 2px 16px rgba(44,90,160,0.08);border-radius:12px;overflow:hidden;'><iframe src='pdfs/tr/onsoz.pdf' width='100%' height='100%' style='border:none;min-height:600px;' allowfullscreen></iframe></div><div style='display:flex;gap:1rem;flex-wrap:wrap;align-items:center;'><a href='pdfs/tr/onsoz.pdf' download class='pdf-download'>Download PDF</a></div>",
     "content_long_tr": "<div style='width:100%;height:80vh;max-width:100%;margin:2rem 0;box-shadow:0 2px 16px rgba(44,90,160,0.08);border-radius:12px;overflow:hidden;'><iframe src='pdfs/tr/onsoz.pdf' width='100%' height='100%' style='border:none;min-height:600px;' allowfullscreen></iframe></div><div style='display:flex;gap:1rem;flex-wrap:wrap;align-items:center;'><a href='pdfs/tr/onsoz.pdf' download class='pdf-download'>PDF'yi indir</a></div>",
     "image_url": "photos/blogphotos/gokberk-ceviker.jpg",
-    "date": "2025-07-01"
+    "date": "01-07-2025"
   },
   {
     "id": 2,
@@ -19,17 +19,28 @@
     "content_long_en": "<p>You can view the Proxmox VE Installation and Management PDF document online below.</p><div style='width:100%;height:80vh;max-width:100%;margin:2rem 0;box-shadow:0 2px 16px rgba(44,90,160,0.08);border-radius:12px;overflow:hidden;'><iframe src='pdfs/tr/proxmox.pdf' width='100%' height='100%' style='border:none;min-height:600px;' allowfullscreen></iframe></div><div style='display:flex;gap:1rem;flex-wrap:wrap;align-items:center;'><a href='pdfs/tr/proxmox.pdf' download class='pdf-download'>Download PDF</a></div>",
     "content_long_tr": "<p>Proxmox VE Kurulum ve Yönetim PDF dokümanını aşağıdan online olarak görüntüleyebilirsiniz.</p><div style='width:100%;height:80vh;max-width:100%;margin:2rem 0;box-shadow:0 2px 16px rgba(44,90,160,0.08);border-radius:12px;overflow:hidden;'><iframe src='pdfs/tr/proxmox.pdf' width='100%' height='100%' style='border:none;min-height:600px;' allowfullscreen></iframe></div><div style='display:flex;gap:1rem;flex-wrap:wrap;align-items:center;'><a href='pdfs/tr/proxmox.pdf' download class='pdf-download'>PDF'yi indir</a></div>",
     "image_url": "photos/blogphotos/proxmox-ve-8.jpg",
-    "date": "2025-07-03"
+    "date": "02-07-2025"
   },
   {
     "id": 3,
-    "title_en": "Advanced Ip Scanner - Useful Tools",
-    "title_tr": "Advanced Ip Scanner - Faydalı Araçlar",
+    "title_en": "Useful Tools - Advanced Ip Scanner",
+    "title_tr": "Faydalı Araçlar - Advanced Ip Scanner",
     "content_en": "View the Advanced Ip Scanner PDF online in the blog post.",
     "content_tr": "Advanced Ip Scanner PDF dosyasını blogda online olarak görüntüleyin.",
     "content_long_en": "<div style='width:100%;height:80vh;max-width:100%;margin:2rem 0;box-shadow:0 2px 16px rgba(44,90,160,0.08);border-radius:12px;overflow:hidden;'><iframe src='pdfs/tr/AdvancedIpScanner.pdf' width='100%' height='100%' style='border:none;min-height:600px;' allowfullscreen></iframe></div><div style='display:flex;gap:1rem;flex-wrap:wrap;align-items:center;'><a href='pdfs/tr/AdvancedIpScanner.pdf' download class='pdf-download'>Download PDF</a><a href='https://www.advanced-ip-scanner.com/download/' target='_blank' rel='noopener' class='program-download'>Download Program</a></div>",
     "content_long_tr": "<div style='width:100%;height:80vh;max-width:100%;margin:2rem 0;box-shadow:0 2px 16px rgba(44,90,160,0.08);border-radius:12px;overflow:hidden;'><iframe src='pdfs/tr/AdvancedIpScanner.pdf' width='100%' height='100%' style='border:none;min-height:600px;' allowfullscreen></iframe></div><div style='display:flex;gap:1rem;flex-wrap:wrap;align-items:center;'><a href='pdfs/tr/AdvancedIpScanner.pdf' download class='pdf-download'>PDF'yi indir</a><a href='https://www.advanced-ip-scanner.com/download/' target='_blank' rel='noopener' class='program-download'>Programı İndir</a></div>",
     "image_url": "photos/blogphotos/advanced-ip-scanner.jpg",
-    "date": "2025-07-03"
+    "date": "03-07-2025"
+  },
+  {
+    "id": 4,
+    "title_en": "Useful Tools - MobaXterm",
+    "title_tr": "Faydalı Araçlar - MobaXterm",
+    "content_en": "View the MobaXterm PDF online in the blog post.",
+    "content_tr": "MobaXterm PDF dosyasını blogda online olarak görüntüleyin.",
+    "content_long_en": "<div style='width:100%;height:80vh;max-width:100%;margin:2rem 0;box-shadow:0 2px 16px rgba(44,90,160,0.08);border-radius:12px;overflow:hidden;'><iframe src='pdfs/tr/MobaXterm.pdf' width='100%' height='100%' style='border:none;min-height:600px;' allowfullscreen></iframe></div><div style='display:flex;gap:1rem;flex-wrap:wrap;align-items:center;'><a href='pdfs/tr/MobaXterm.pdf' download class='pdf-download'>Download PDF</a><a href='https://mobaxterm.mobatek.net/download-home-edition.html' target='_blank' rel='noopener' class='program-download'>Download Program</a></div>",
+    "content_long_tr": "<div style='width:100%;height:80vh;max-width:100%;margin:2rem 0;box-shadow:0 2px 16px rgba(44,90,160,0.08);border-radius:12px;overflow:hidden;'><iframe src='pdfs/tr/MobaXterm.pdf' width='100%' height='100%' style='border:none;min-height:600px;' allowfullscreen></iframe></div><div style='display:flex;gap:1rem;flex-wrap:wrap;align-items:center;'><a href='pdfs/tr/MobaXterm.pdf' download class='pdf-download'>PDF'yi indir</a><a href='https://mobaxterm.mobatek.net/download-home-edition.html' target='_blank' rel='noopener' class='program-download'>Programı İndir</a></div>",
+    "image_url": "photos/blogphotos/mobaxterm.png",
+    "date": "03-07-2025"
   }
 ] 
