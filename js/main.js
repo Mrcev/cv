@@ -405,6 +405,15 @@ document.addEventListener('DOMContentLoaded', () => {
     // Sayfa yüklenince localStorage'dan tema uygula
     const savedTheme = localStorage.getItem('cv_theme');
     setTheme(savedTheme === 'light' ? 'light' : 'dark'); // Default: dark
+
+    // Footer yılını otomatik güncelle
+    (function() {
+        var year = new Date().getFullYear();
+        var copyrightEls = document.querySelectorAll('.footer-bottom p');
+        copyrightEls.forEach(function(el) {
+            el.innerHTML = el.innerHTML.replace(/\d{4}/, year);
+        });
+    })();
 });
 
 // Handle page visibility changes
